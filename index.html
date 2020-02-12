@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/style.css">
-</head>
-<body>
-    <article id="container">
-
-    </article>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <noscript>
+            <link rel="stylesheet" type="text/css" href="light.css">
+        </noscript>
+  </head>
+  <body>
+    <article id="container"></article>
+    <button id="mode-toggler" class="btn">
+      Turn on Javascript 🌓
+    </button>
     <script type="module" src="./src/scripts/main.js"></script>
-</body>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="src/scripts/darkmode.js"></script>
+    <script src="darkmode.js"></script>
+</script>
+      <script>
+		var DarkMode = new DarkMode({
+			light: 'light.css',
+			dark: 'dark.css',
+    })
+    
+    var ModeToggler = document.getElementById('mode-toggler')
+    changeTogglerText()
+
+	  ModeToggler.onclick = function() {
+      DarkMode.toggleMode()
+      changeTogglerText()
+    }
+    
+    function changeTogglerText() {
+      var currentMode = DarkMode.getMode()
+      ModeToggler.textContent = currentMode === 'light'  ? 'To dark 🌝' : 'To light 🌚'
+    }
+	</script>
+  </body>
 </html>
