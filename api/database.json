@@ -1,0 +1,285 @@
+{
+    "politicians": [
+        {
+            "id": 1,
+            "name": "Chaussy Wombler"
+        },
+        {
+            "id": 2,
+            "name": "Pimpton Mcgoo"
+        },
+        {
+            "id": 3,
+            "name": "Sarvy Frost"
+        },
+        {
+            "id": 4,
+            "name": "Clump Gee"
+        },
+        {
+            "id": 5,
+            "name": "Sally Windle"
+        },
+        {
+            "id": 6,
+            "name": "Mark Marque"
+        }
+    ],
+    "pacs": [
+        {
+            "id":1,
+            "name": "2-PAC-Shakur"
+        },
+        {
+            "id":2,
+            "name": "PacMan"
+        },
+        {
+            "id":3,
+            "name": "PACO"
+        },
+        {
+            "id":4,
+            "name": "I Like big PACs"
+        }
+    ],
+    "politicianPacs": [
+        {
+            "id":1,
+            "politicianId":1,
+            "pacId": 2
+        },
+        {
+            "id":2,
+            "politicianId":1,
+            "pacId": 4
+        },{
+            "id":3,
+            "politicianId":2,
+            "pacId": 1
+        },{
+            "id":4,
+            "politicianId":2,
+            "pacId": 3
+        },{
+            "id":5,
+            "politicianId":3,
+            "pacId": 4
+        },{
+            "id":6,
+            "politicianId":3,
+            "pacId": 1
+        },{
+            "id":7,
+            "politicianId":4,
+            "pacId": 2
+        },{
+            "id":8,
+            "politicianId":4,
+            "pacId": 3
+        },{
+            "id":9,
+            "politicianId":5,
+            "pacId": 3
+        },{
+            "id":10,
+            "politicianId":5,
+            "pacId": 4
+        },{
+            "id":11,
+            "politicianId":5,
+            "pacId": 1
+        },{
+            "id":12,
+            "politicianId":6,
+            "pacId": 1
+        },{
+            "id":13,
+            "politicianId":6,
+            "pacId": 2
+        }
+    ],
+    "corporations": [
+        {
+            "id": 1,
+            "name": "McDonalds"
+        },{
+            "id": 2,
+            "name": "Arbys"
+        },
+        {
+            "id":3,
+            "name": "Whole Foods"
+        },
+        {
+            "id":4,
+            "name": "SAUCE!"
+        },
+        {
+            "id":5,
+            "name": "FlavorTown"
+        }
+
+    ],
+    "bills": [
+        {
+            "id":1,
+            "name": "Here Ye Here Ye"
+        },
+        {
+            "id":2,
+            "name": "Help The People"
+        },
+        {
+            "id":3,
+            "name": "Evil Bill"
+        },
+        {
+            "id":4,
+            "name": "Free Puppies For All"
+        },
+        {
+            "id":5,
+            "name": "Mandatory Curfew"
+        }
+    ],
+    "corporationPacs":[
+        {
+            "id":1,
+            "pacId": 1,
+            "corporationId": 1
+        },{
+            "id":2,
+            "pacId": 1,
+            "corporationId": 2
+        },{
+            "id":3,
+            "pacId": 2,
+            "corporationId": 2
+        },{
+            "id":4,
+            "pacId": 2,
+            "corporationId": 3
+        },{
+            "id":5,
+            "pacId": 3,
+            "corporationId": 3
+        },{
+            "id":6,
+            "pacId": 3,
+            "corporationId": 4
+        },{
+            "id":7,
+            "pacId": 4,
+            "corporationId": 4
+        },{
+            "id":8,
+            "pacId": 4,
+            "corporationId": 5
+        }
+    ],
+    "billPacs": [
+        {
+            "id":1,
+            "pacId": 1,
+            "billId":1
+        },
+        {
+            "id":2,
+            "pacId": 1,
+            "billId":2
+        },
+        {
+            "id":3,
+            "pacId": 2,
+            "billId":3
+        },
+        {
+            "id":4,
+            "pacId": 2,
+            "billId":4
+        },
+        {
+            "id":5,
+            "pacId": 3,
+            "billId":5
+        },
+        {
+            "id":6,
+            "pacId": 3,
+            "billId":3
+        },
+        {
+            "id":7,
+            "pacId": 4,
+            "billId":2
+        },
+        {
+            "id":8,
+            "pacId": 4,
+            "billId":4
+        }
+    ],
+    "politicianBills": [
+        {
+            "id":1,
+            "politicianId":1,
+            "billId": 1
+
+        },
+        {
+            "id":2,
+            "politicianId": 1,
+            "billId":2
+        },
+        {
+            "id":3,
+            "politicianId": 2,
+            "billId":2
+        },
+        {
+            "id":4,
+            "politicianId": 2,
+            "billId":3
+        },{
+            "id":5,
+            "politicianId": 3,
+            "billId":3
+        },
+        {
+            "id":6,
+            "politicianId": 3,
+            "billId":4
+        },
+        {
+            "id":7,
+            "politicianId": 4,
+            "billId":4
+        },
+        {
+            "id":8,
+            "politicianId": 4,
+            "billId":5
+        },
+        {
+            "id":9,
+            "politicianId": 5,
+            "billId":5
+        },
+        {
+            "id":10,
+            "politicianId": 5,
+            "billId":1
+        },
+        {
+            "id":11,
+            "politicianId": 6,
+            "billId":3
+        },
+        {
+            "id":12,
+            "politicianId": 6,
+            "billId":5
+        }
+    ]
+}
